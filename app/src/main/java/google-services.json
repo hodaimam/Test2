@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "701376865476",
+    "project_id": "buy-and-sell-1470165945905"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701376865476:android:a16cac39f5288205",
+        "android_client_info": {
+          "package_name": "com.example.ahmed.test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701376865476-t9gke033cu7hnjjouo3udstour1ujnfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmed.test2",
+            "certificate_hash": "8AA9029788379AB381A5A10C95043F4C684548D2"
+          }
+        },
+        {
+          "client_id": "701376865476-ap66q8b7i79536upt4udrsvtaassuenv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fbnd7UtT9diZ-EQmMxeIuTQPCfeG5Q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

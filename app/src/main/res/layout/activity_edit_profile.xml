@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:transitionName="transition_fab_to_edit"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10.0dip">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:gravity="center">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ProfilePic"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/ic_user_large"/>
+
+            </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/Name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:drawableRight="@drawable/star_red"
+                    android:hint="first name"
+                    android:inputType="textPersonName|textCapSentences"
+                    android:maxLength="50"
+                    android:paddingRight="10.0dip"/>
+
+                <EditText
+                    android:id="@+id/Lastname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:drawableRight="@drawable/star_red"
+                    android:hint="last name"
+                    android:inputType="textPersonName|textCapSentences"
+                    android:maxLength="20"
+                    android:paddingRight="10.0dip"/>
+
+
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:drawableRight="@drawable/star_red"
+                android:hint="email"
+                android:inputType="textWebEmailAddress|textCapSentences"
+                android:maxLength="30"
+                android:paddingRight="10.0dip"/>
+
+
+
+            <include layout="@layout/phonenumber"/>
+
+            <include layout="@layout/phonenumber"/>
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
